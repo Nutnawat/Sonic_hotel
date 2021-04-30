@@ -1,0 +1,105 @@
+body {
+  overflow: overlay;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+  width: 5px;
+  transition: 0.3s;
+}
+
+::-webkit-scrollbar-button {
+  background: #222;
+  display: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #666;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #333;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-corner {
+  background: #999;
+}
+
+::-webkit-resizer {
+  background: #111;
+}
+
+/* Navbar */
+
+.navbar {
+  transition: 0.5s;
+}
+.navbar.is-top {
+  background: transparent !important;
+}
+
+/* Main Moblie Header*/
+
+/* Main Services*/
+
+#main-services {
+  background: #181816;
+}
+
+#main-services .title {
+  text-align: center;
+  color: #f6f6f6;
+}
+
+/* Main Services*/
+
+#main-rooms .title-box {
+  display: flex;
+  justify-content: center;
+}
+
+#main-rooms .title {
+  text-align: center;
+}
+
+#main-rooms .room-box {
+  display: flex;
+  justify-content: space-around;
+}
+
+#main-rooms .room-box img {
+  border-radius: 5px;
+}
+
+#main-rooms .room-box .room-content-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#main-rooms .room-box .room-content-box .price-text {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#main-rooms .room-box .room-content-box .detail-link {
+  width: 150px;
+  border-radius: 50px;
+}
+
+/* Footer */
+#footer {
+  background: #181816;
+  margin-top: 100px;
+}
+
+#footer #copy-right {
+  text-align: center;
+}
